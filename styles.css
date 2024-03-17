@@ -1,0 +1,192 @@
+/* Question 0. Import a font and make all text in the body using that font. Check the homework instructions for more information!*/
+/* Set all text in the body to be a certain color (whatever color you choose!)*/
+/* Center all text in the body. Check out the homework spec for help.*/
+
+  
+body {
+    font-family: "Concert One", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: #340ca17d;
+    margin: 50px auto;
+    max-width: 1200px;
+    text-align: center;
+    /* YOUR CODE HERE */
+}
+
+/* Question 1: Add a border, border radius, box shadow, or whatever other styling you'd like to your image! */
+img {
+    width: 175px;
+    border:#a5d2ee;
+    border-radius: 10px;
+    box-shadow:0vmin;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    /* YOUR CODE HERE */
+}
+
+h1 {
+    font-size: 45px;
+    transition: ease-in-out 0.5s;
+}
+
+/* Question 2. Select the h1 tag and add a hover effect! You can change the background-color, color, opacity, or anything you want.*/
+h1:hover {
+    background-color: rgb(155, 204, 180);
+    opacity: 1;
+}
+/* YOUR CODE HERE */
+
+
+
+
+
+/* Question 3. Add different background colors for all the different sections (Education, Experience, etc.) by selecting them via ids. */
+#education {
+    background-color: honeydew;
+}
+
+#experience {
+    background-color:honeydew;
+    border-radius: 20px;
+
+}
+
+#projects {
+    text-align: left;
+
+}
+
+#contactInfo {
+    background-color: honeydew;
+}
+/* YOUR CODE HERE */
+
+
+
+
+/* Question 4. Add margin, padding, and borders to the section-wrapper class! */
+
+.education-wrapper {
+    background-color: #f7ecd5;
+    width: 900px;
+    border: 15px solid lavender;
+    padding: 20px;
+    margin: 90px;
+    border-radius: 10px;
+
+    /*YOUR CODE HERE*/
+}
+
+
+
+/* Experience Section */
+
+/* Question 5a. Use CSS Flexbox to display your experiences as shown in the diagram.
+ Hint: Check the homework spec for some help!*/
+
+.experience-wrapper {
+    display: flex; /* YOUR CODE HERE */
+    gap: 1%; /*YOUR CODE HERE*/
+    justify-content:space-evenly ; /*YOUR CODE HERE*/
+    flex-direction: row;
+}
+
+/* Question 5b. Add a background color to the experience-list-item class.*/
+
+.experience-list-item {
+    background-color: #f7ecd5;
+    border: 4px solid #1d3557;
+    text-align: center;
+    margin:5px;
+    width: 990px;;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:12px 12px 2px 1px rgba(0, 0, 255, .2);
+    /*YOUR CODE HERE*/
+
+    /* Side note: the transition attribute makes effects look smoother! 
+    This means the hover effect will slowly kick in for 0.2s. */
+    transition: ease-in-out 0.2s;
+}
+
+
+
+/* Question 5c. Let's take a break! Add a hover effect to each experience-list-item div. 
+Experiment with border, border-radius, background-color, or whatever you want!*/
+
+.experience-list-item:hover {
+    /* YOUR CODE HERE */
+    border-radius: 20px;
+    background-color: lightyellow;
+    
+}
+
+
+
+
+/* Projects Section */
+
+/* Question 6. Use CSS Flexbox and hover effects for the Projects Section, just as you did for the Experience Section! */
+
+/*YOUR CODE HERE*/
+.project-wrapper {
+    display: flex;
+    gap: 1%; /*YOUR CODE HERE*/
+    justify-content:space-evenly ; /*YOUR CODE HERE*/
+    flex-direction:row;
+    
+}
+
+.project-list-item {
+    background-color: #f7ecd5;
+    border: 4px solid #1d3557;
+    text-align: center;
+    margin:5px;
+    width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px olive, -1em 0 .4em lightgrey;
+
+}
+
+.project-list-item:hover {
+    border-radius: 20px;
+    background-color: lightpink;
+}
+
+
+
+
+
+/* Contact Section */
+.contactInfo-wrapper {
+    /* display: flex; */
+    border: solid burlywood;
+    border-width: 10px;
+    width:300px;
+    background-color: aliceblue;
+    font:larger;
+    /* justify-content: center; */
+
+}
+
+/* Question 7. Make your link look something like the one shown in the homework spec!*/
+
+a {
+    /*YOUR CODE HERE*/
+    text-decoration:none;
+    padding:5px;
+    box-shadow: cornflowerblue;
+    background-color: aquamarine;
+    border-radius: 20px;
+
+}
+
+
+
+
+h3 {
+    text-align:center;
+
+
+}
